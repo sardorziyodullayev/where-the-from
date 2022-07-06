@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Where in the world?</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header__container container">
+        <div class="header__inner">
+          <h2 class="header__heading">Where in the world?</h2>
+          <button class="header__button">
+            <img
+              src="./image/moon.svg"
+              alt="Button moon img"
+              width="20"
+              height="20"
+            />
+            Dark Mode
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main class="site-main">
+      <section class="hero-section">
+        <div class="container">
+          <div class="search">
+            <form
+              class="search__form"
+              action="https://echo.htmlacademy.ru"
+              method="POST"
+            >
+              <input
+                class="search__input"
+                type="text"
+                placeholder="Search for a country"
+              />
+              <select class="search__select" name="search" id="search">
+                <option value="" selected hidden>Filter by Region</option>
+                <optgroup id="locations">
+                  <option value="Asia">Asia</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Africa">Africa</option>
+                  <option value="America">America</option>
+                  <option value="Australiya">Australiya</option>
+                </optgroup>
+              </select>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="flags">
+        <div class="container">
+          <ul class="flag__list">
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/flag-germany.png"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Germany</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Europe</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/america.svg.png"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>America</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>America</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/flag-brazil.png"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Brazil</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Brazil</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/aland.jpg"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Island</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Island</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/afgon.jpg"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Afgon</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Afgon</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/island.svg.png"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Island</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Island</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/algeriya.jpg"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Algeriya</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Algeriya</p>
+              </div>
+            </li>
+            <li class="flag__item">
+              <img
+                class="flag__img"
+                src="./image/alban.jpg"
+                alt="Germany flag img"
+                width="267"
+                height="150"
+              />
+              <div class="flag__item-inner">
+                <h4>Alban</h4>
+                <p><strong>Population:</strong>01.770.900</p>
+                <p><strong>Region:</strong>Alban</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>

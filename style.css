@@ -1,0 +1,120 @@
+:root{
+  --bg-black:#fff;
+  --clr-white:rgb(19, 19, 19);
+}
+.dark{
+  --bg-black:rgb(19, 19, 19);
+  --clr-white:#fff;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color:  var(--bg-black);
+  color: var(--clr-white);
+}
+
+.container {
+  max-width: 1370px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+.site-header {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(0, 179, 255);
+  border-radius: 8px;
+}
+
+.search {
+  padding: 50px 0;
+}
+
+.search__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__input {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 10px 35px 0 #999;
+}
+.search__input::before {
+  display: block;
+  content: "";
+  background-image: url(./image/search.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search__select {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 35px 0 #999;
+  box-shadow: 0 10px 35px 0 #999;
+}
+
+.flag__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  flex-wrap: wrap;
+}
+.flag__item {
+  width: 267px;
+  background-color: var(--bg-black);
+  border-radius: 5px;
+  box-shadow: 0 10px 35px 0 #999;
+}
+.flag__item:nth-child(-n + 4) {
+  margin-bottom: 50px;
+}
+.flag__item-inner {
+  padding: 0 20px 20px 20px;
+  font-size: 16px;
+}
