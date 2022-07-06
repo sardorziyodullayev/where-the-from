@@ -78,6 +78,8 @@ body {
   width: 250px;
   height: 50px;
   border-radius: 5px;
+  background-color: var(--bg-black);
+  color: var(--clr-white);
   border: none;
   box-shadow: 0 10px 35px 0 #999;
 }
@@ -93,6 +95,8 @@ body {
   width: 250px;
   height: 50px;
   border: none;
+  background-color: var(--bg-black);
+  color: var(--clr-white);
   border-radius: 5px;
   box-shadow: 0 10px 35px 0 #999;
   box-shadow: 0 10px 35px 0 #999;
